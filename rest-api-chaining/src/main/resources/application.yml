@@ -1,0 +1,7 @@
+spring:
+  application:
+   name: rest-api-chaining
+   url: http://localhost
+   handlers:  tokenApiService,chatBinderService,conversationsService
+
+
